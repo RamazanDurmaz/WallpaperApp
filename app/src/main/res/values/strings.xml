@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">HD Wallpapers</string>
+    <string name="category_name">Category Name</string>
+    <string name="dowload_tag">Download image for HD quality</string>
+    <string name="progress_title">Downloading...</string>
+    <string name="search_title">Search</string>
+</resources>

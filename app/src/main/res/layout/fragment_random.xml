@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="?attr/actionBarSize"
+    android:id="@+id/linear_layout">
+    <com.ramazandurmaz.walpaper.view.classes.CustomScrollView
+        android:id="@+id/custom_scroll_view"
+        android:minHeight="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_random_wallpapers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:listitem="@layout/layout_random_wallpaper_item">
+
+        </androidx.recyclerview.widget.RecyclerView>
+    </com.ramazandurmaz.walpaper.view.classes.CustomScrollView>
+
+
+</LinearLayout>

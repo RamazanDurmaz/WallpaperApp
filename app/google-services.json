@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "472216164635",
+    "firebase_url": "https://walpaper-b6924.firebaseio.com",
+    "project_id": "walpaper-b6924",
+    "storage_bucket": "walpaper-b6924.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:472216164635:android:86a24578605b096670dbbe",
+        "android_client_info": {
+          "package_name": "com.ramazandurmaz.walpaper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "472216164635-k69rrdb193aee8fgu5r3qlufps55k6ut.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ramazandurmaz.walpaper",
+            "certificate_hash": "4c828c9f0ebef81b26e6e59c91357104d001c4d6"
+          }
+        },
+        {
+          "client_id": "472216164635-sov8df0saulfmul8199p9fk3ar8d9mha.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA801ytOHNW_1H5a2ihKBSHK5ZGn6V9V-M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "472216164635-sov8df0saulfmul8199p9fk3ar8d9mha.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

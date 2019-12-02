@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="?attr/actionBarSize">
+    <ScrollView
+        android:id="@+id/liked_scroll_view"
+        android:minHeight="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_favorite_wallpapers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:listitem="@layout/layout_favorite_wallpaper_item">
+
+        </androidx.recyclerview.widget.RecyclerView>
+    </ScrollView>
+</LinearLayout>
