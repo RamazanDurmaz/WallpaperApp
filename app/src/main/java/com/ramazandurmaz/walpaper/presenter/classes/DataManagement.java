@@ -77,6 +77,7 @@ public class DataManagement implements ILoadFirebaseCategory {
             }
         }
         MyApp.getPreferences().addWallpaperListtoPref(walpaperList);
+
     }
 
 
