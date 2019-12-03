@@ -62,7 +62,7 @@ public class DownloadTask extends AsyncTask<String,Integer,String> {
             fileLenght = urlConnection.getContentLength();
             InputStream inputStream = new BufferedInputStream(url.openStream());
             File newFolder = new File(Environment.getExternalStorageDirectory() + File.separator + "HDWallpaper");
-            if (newFolder.exists()) {
+            if (!newFolder.exists()) {
                 newFolder.mkdir();
             }
             Calendar currentTime = Calendar.getInstance();

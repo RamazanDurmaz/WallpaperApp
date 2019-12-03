@@ -21,7 +21,6 @@ public class ViewPagerAdapter extends FragmentPagerAdapter {
         this.context = context;
     }
 
-
     @Override
     public int getCount() {
         return 3;
